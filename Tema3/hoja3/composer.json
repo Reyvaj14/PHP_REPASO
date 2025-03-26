@@ -1,0 +1,32 @@
+{
+    "name": "daw2/hoja3",
+    "description": "Ejercicio numero 3 composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+
+            "MiAplicacion\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "javier",
+            "email": "rodriguezhoyojavier@gmail.com"
+
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "Libreria"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require":{
+        "hackzilla/password-generator": "^1.6"
+    },
+    "scripts": {
+		"start": "php -S localhost:8001 -t public"
+	}
+
+}

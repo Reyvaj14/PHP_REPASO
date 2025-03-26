@@ -1,0 +1,15 @@
+{
+    "name": "daw2/hoja2",
+    "autoload": {
+        "psr-4": {
+            "Daw2\\Hoja2\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "scripts": {
+		"start": "php -S localhost:8001 -t public"
+	}
+}

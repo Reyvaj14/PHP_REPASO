@@ -1,0 +1,20 @@
+{
+    "name": "daw2/hoja1",
+    "description": "primer jercicio composer",
+    "autoload": {
+        "psr-4": {
+            "Daw2\\Hoja1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "javier"
+        }
+    ],
+    "require": {
+        "brick/math": "^0.13.0"
+    },
+    "scripts": {
+		"start": "php -S localhost:8001 -t public"
+	}
+}
