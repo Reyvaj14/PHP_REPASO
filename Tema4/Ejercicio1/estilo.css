@@ -1,0 +1,107 @@
+/*** formulario *****/
+.formulario ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.formulario li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+.formulario li:first-child, .formulario li:last-child {
+    border-bottom:1px solid #777;
+}
+
+.formulario h1 {
+    margin:0;
+    display: inline;
+}
+
+.formulario label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.formulario input {
+    height:20px; 
+    padding:5px 8px;
+}
+.formulario select {
+    height:30px; 
+    width:238px; 
+    padding:5px 8px;
+}
+.formulario button {margin-left:156px;}
+
+/*** botón formulario ***/
+button.submit {
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+}
+
+/*** aviso ***/
+.aviso{
+    width:710px;
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+    margin-bottom: 10px;
+}
+/*** tabla ***/
+.tabla
+{ 
+  border: 1px solid black;
+  padding: 0;
+  width: 650px;
+  margin: 20px 0 0 30px;
+}
+
+.tabla th 
+{
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  background-color: #68b12f;
+}
+
+.tabla td 
+{
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.4;
+  padding: 8px;
+  padding-left: 16px;
+  text-align: center;
+}
+
+
+
+
+.actualizar
+{
+    margin: 20px 0px 0 30px;
+}
